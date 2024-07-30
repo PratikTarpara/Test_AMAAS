@@ -1,0 +1,32 @@
+{
+	  "id": "www.company.com/ids/sm/6535_4121_8002_9238",
+      "idShort": "StatusResponse",
+      "modelType": "Submodel",
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "value": "E",
+          "idShort": "Status",
+          "modelType": "Property",
+          "kind": "Instance"
+        },
+        {
+          "value": "",
+          "idShort": "Code",
+          "modelType": "Property",
+          "kind": "Instance"
+        },
+        {
+          "value": "Error Message",
+          "idShort": "Messaage",
+          "modelType": "Property",
+          "kind": "Instance"
+        },
+        {
+          "value": "0",
+          "idShort": "cfp",
+          "modelType": "Property",
+          "kind": "Instance"
+        }
+      ]
+}

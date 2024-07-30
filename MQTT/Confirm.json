@@ -1,0 +1,32 @@
+{
+    "frame": {
+      "semanticProtocol": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "www.admin-shell.io/interaction/bidding"
+          }
+        ],
+        "type": "ExternalReference"
+      },
+      "type": "Confirm",
+      "messageId": "Confirm_1",
+      "sender": {
+        "id": "https://ovgu.de/aas/bidding",
+        "role": {
+          "name": "ExternalRequester"
+        }
+      },
+      "receiver": {
+        "id": "https://ovgu.de/aas/bidding",
+        "role": {
+          "name": "ServiceRequester"
+        }
+      },
+      "conversationId": "ProductionOrder_1",
+      "replyBy": "",
+      "replyTo": ""
+    },
+    "interactionElements": []
+  }
+  

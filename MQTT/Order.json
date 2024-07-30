@@ -1,0 +1,59 @@
+{
+  "frame": {
+    "semanticProtocol": {
+      "keys": [
+        {
+          "type": "GlobalReference",
+          "value": "www.admin-shell.io/interaction/bidding"
+        }
+      ],
+      "type": "ExternalReference"
+    },
+    "type": "Order",
+    "messageId": "Order_1",
+    "sender": {
+      "id": "https://ovgu.de/aas/bidding",
+      "role": {
+        "name": "ExternalRequester"
+      }
+    },
+    "receiver": {
+      "id": "https://ovgu.de/aas/bidding",
+      "role": {
+        "name": "ServiceRequesterLayer"
+      }
+    },
+    "conversationId": "ProductionOrder_1",
+    "replyBy": "",
+    "replyTo": ""
+  },
+  "interactionElements": [{
+            "idShort": "SR_Test",
+            "category": "CONSTANT",
+            "id": "ww.ovgu.de/submodel/SR_Test",
+            "modelType": "Submodel",
+            "submodelElements": [
+                {
+                    "idShort": "SR_dim",
+                    "category": "CONSTANT",
+                    "value": "2000",
+                    "valueType": "xs:string",
+                    "modelType": "Property"
+                },
+                {
+                    "idShort": "SP_Layer_Height",
+                    "category": "CONSTANT",
+                    "modelType": "SubmodelElementCollection",
+                    "value": [
+                        {
+                            "idShort": "Layer_Height",
+                            "category": "CONSTANT",
+                            "value": "0.4",
+                            "valueType": "xs:string",
+                            "modelType": "Property"
+                        }
+                    ]
+                }
+            ]
+        }]
+}
